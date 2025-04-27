@@ -541,6 +541,11 @@ section {
     margin-bottom: 0px;
     align-items: center;
   }
+  
+  .section-about__btns button {
+    font-size: 16px;
+
+  }
 
   .section-about__img-container {
     display: none;
@@ -667,9 +672,22 @@ section {
 
 .section-live-stream__card-btn {
   margin: 0 25px 25px 25px;
-  padding: 7px 20px;
+  padding: 7px 0px;
+  
 
+}
 
+.slick-slide__content button {
+  padding: 7px 0px;
+  background-color: #fff;
+  color: #00B7EC;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 90%;
 }
 
 .section-live-stream__card-text {
@@ -708,6 +726,10 @@ section {
   
   .slick-current {
     opacity: 1;
+  }
+
+  .section-live-stream__card-btn {
+
   }
 }
 
@@ -951,6 +973,13 @@ section {
   }
   .form__file-text {
     width: 100%;
+  }
+  .section-welcome__btns button{
+    font-size: 16px;
+  }
+  .section-about__title {
+    text-align: center;
+    padding-top: 25px;
   }
 }
 
