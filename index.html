@@ -344,7 +344,7 @@
                   <img src="img/form_svg.svg" alt="" class="form__file-icon">
                 </span>
               </label>
-              <div id="resumePreview" class="form__file-preview"></div> <!-- Покажем файл -->
+              <div id="resumePreview" class="form__file-preview"></div> 
               <span id="resumeError" class="form__error"></span> 
             </div>
             <button type="submit" class="form__submit btn-fill--green">Записаться</button>
@@ -520,6 +520,7 @@ burger.addEventListener('click', () => {
         const removeBtn = document.createElement('button');
         removeBtn.type = 'button';
         removeBtn.textContent = 'Удалить';
+        removeBtn.className = 'file-remove-btn';
         removeBtn.style.marginLeft = '10px';
 
         removeBtn.addEventListener('click', function () {

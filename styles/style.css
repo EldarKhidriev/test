@@ -12,7 +12,12 @@ section {
 
   width: 100%;
 }
+button, input {
+  color: #666;
+  
 
+  
+}
 /* .wrapper {
   max-width: 1280px;
   margin: 0 auto;
@@ -1111,9 +1116,41 @@ section {
   border: 3px solid #9BCC37;
   border-radius: 5px;
   transition: background-color 0.3s;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
   font-size: 16px;
+
+}
+
+
+.form__file-preview {
+  margin-top: 2%;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.file-remove-btn {
+  
+  color: #9BCC37;
+  border: 3px solid #9BCC37;
+  background-color: #fff;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px; 
+  font-weight: 400;
+  transition: background-color 0.3s;
+}
+.file-remove-btn:hover {
+  background-color: #9BCC37;
+  color: #fff;
+  border: 3px solid #9BCC37;
+  cursor: pointer;
 }
 
 
@@ -1127,6 +1164,7 @@ section {
 
 .form__submit {
   padding: 14px 25%;
+  max-height: 60px;
   background-color: #9BCC37;
   color: #fff;
   border-radius: 5px;
