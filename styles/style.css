@@ -49,7 +49,7 @@ button, input {
 .header__logo-desktop {
   width: 74px;     /* или любой нужный размер */
   height: 84px;     /* сохраняет пропорции */
-  max-width: 100%;
+  /* margin-right: 10px; */
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   display: block;
 }
@@ -64,12 +64,15 @@ button, input {
   padding: 0;
   margin: 0;
   gap: 39px;
+  
 
 }
 
+
+
 .header__nav-link {
   text-decoration: none;
-  
+  text-overflow: ellipsis;
 }
 
 .header__logo-mobile, .header__search, .header__basket, .header__account, .burger {
@@ -495,7 +498,7 @@ button, input {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1214px) {
   .header__logo-mobile, .header__search, .header__basket, .header__account, .burger {
     display: block;
   }
@@ -610,6 +613,9 @@ button, input {
   .section-video__title {
     padding-top: 35px;
 }
+.section-about__content {
+  justify-content: center;
+}
 
 }
 
@@ -675,7 +681,7 @@ button, input {
   display: flex;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1214px) {
   .burger {
     display: none;
   }
@@ -1054,6 +1060,7 @@ button, input {
     text-align: center;
     padding-top: 25px;
   }
+  
 }
 
 .form__label {
@@ -1132,6 +1139,23 @@ button, input {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  white-space: nowrap;         
+ 
+  text-overflow: ellipsis;     
+  max-width: 234px;   
+
+}
+.form__file-preview span{
+  flex-grow: 1; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .form__file-preview {
+    max-width: 100%;
+  }
   
 }
 
@@ -1163,7 +1187,7 @@ button, input {
 }
 
 .form__submit {
-  padding: 14px;
+  padding: 14px 10%;
   max-height: 60px;
   background-color: #9BCC37;
   color: #fff;
