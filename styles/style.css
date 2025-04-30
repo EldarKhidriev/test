@@ -168,7 +168,7 @@ button, input {
   background-repeat: no-repeat;
   color: #fff;
   min-height: 568px;
-  min-width: none;
+  
   overflow: hidden;
   display: flex;
   align-items: center;
