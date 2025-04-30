@@ -10,32 +10,35 @@
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body class="page">
+  
   <header class="header">
-    <a href="#" class="header__search"><img src="img/search.svg" alt=""></a>
-    <a href="#" class="header__basket"><img src="img/basket.svg" alt=""></a>
-    <a href="index.html" class="header__logo-link">
-      <img src="img/logo_header_desktop.svg" alt="логотип 'Гендельф карьера'" class="header__logo-desktop">
-      <img src="img/logo_header_mobile.svg" alt="логотип 'Гендельф карьера'" class="header__logo-mobile">
-    </a>
-    <a href="#" class="header__account"><img src="img/account.svg" alt=""></a>
-    <button class="burger" id="burger"></button>
-  <nav class="header__nav-mobile" id="mobileMenu">
-    <ul class="header__nav-list-mobile">
-      <li><a href="#" class="header__nav-link">Главная</a></li>
-      <li><a href="#" class="header__nav-link">О нас</a></li>
-      <li><a href="#" class="header__nav-link">Контакты</a></li>
-    </ul>
-  </nav>
-    <nav class="header__nav">
-      <ul class="header__nav-list">
-        <li class="header__nav-item"><a href="#" class="header__nav-link">Профориентация</a></li>
-        <li class="header__nav-item"><a href="#" class="header__nav-link">Выбрать вакансию</a></li>
-        <li class="header__nav-item"><a href="#" class="header__nav-link">Карьера в ГЭНДАЛЬФ</a></li>
-        <li class="header__nav-item"><a href="#" class="header__nav-link">Стажерство</a></li>
-        <li class="header__nav-item"><a href="#" class="header__nav-link">Отзывы</a></li>
+    <div class="header-content">
+      <a href="#" class="header__search"><img src="img/search.svg" alt=""></a>
+      <a href="#" class="header__basket"><img src="img/basket.svg" alt=""></a>
+      <a href="index.html" class="header__logo-link">
+        <img src="img/logo_header_desktop.svg" alt="логотип 'Гендельф карьера'" class="header__logo-desktop">
+        <img src="img/logo_header_mobile.svg" alt="логотип 'Гендельф карьера'" class="header__logo-mobile">
+      </a>
+      <a href="#" class="header__account"><img src="img/account.svg" alt=""></a>
+      <button class="burger" id="burger"></button>
+    <nav class="header__nav-mobile" id="mobileMenu">
+      <ul class="header__nav-list-mobile">
+        <li><a href="#" class="header__nav-link">Главная</a></li>
+        <li><a href="#" class="header__nav-link">О нас</a></li>
+        <li><a href="#" class="header__nav-link">Контакты</a></li>
       </ul>
     </nav>
-    <button class="header__btn btn-no-fill--blue btn--litle">Запись на собеседование</button>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item"><a href="#" class="header__nav-link">Профориентация</a></li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link">Выбрать вакансию</a></li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link">Карьера в ГЭНДАЛЬФ</a></li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link">Стажерство</a></li>
+          <li class="header__nav-item"><a href="#" class="header__nav-link">Отзывы</a></li>
+        </ul>
+      </nav>
+      <button class="header__btn btn-no-fill--blue btn--litle">Запись на собеседование</button>
+    </div>
   </header>
 
   <main class="wrapper">
@@ -55,68 +58,72 @@
     </section>
 
     <section class="section-about">
-      <div class="section-about__content-container">
-        <h3 class="section-about__title title--blue">О том, чем мы занимаемся</h3>
-        <div class="section-about__text">
-          <p>ГЭНДАЛЬФ – один из крупнейших игроков на рынке информационных технологий, занимающий 4 место среди 7000 партнеров фирмы «1С». У нас есть представительства в 15 городах России, а нашими услугами пользуются 23 000 организаций-клиентов, в числе которых «Базэл Аэро», «Ростсельмаш», UTG. Аэропорт Кольцово и многие другие.</p>
-          <p>Мы тщательно подходим к выбору сотрудников, которые становятся частью команды профессионалов.</p>
-          <p>У нас работают специалисты разных областей: программисты, маркетологи, менеджеры, копирайтеры, методисты и другие, чей карьерный рост не ограничен привычными рамками.</p>
+      <div class="section-about__content">
+        <div class="section-about__content-container">
+          <h3 class="section-about__title title--blue">О том, чем мы занимаемся</h3>
+          <div class="section-about__text">
+            <p>ГЭНДАЛЬФ – один из крупнейших игроков на рынке информационных технологий, занимающий 4 место среди 7000 партнеров фирмы «1С». У нас есть представительства в 15 городах России, а нашими услугами пользуются 23 000 организаций-клиентов, в числе которых «Базэл Аэро», «Ростсельмаш», UTG. Аэропорт Кольцово и многие другие.</p>
+            <p>Мы тщательно подходим к выбору сотрудников, которые становятся частью команды профессионалов.</p>
+            <p>У нас работают специалисты разных областей: программисты, маркетологи, менеджеры, копирайтеры, методисты и другие, чей карьерный рост не ограничен привычными рамками.</p>
+          </div>
+          
+          <div class="section-about__btns">
+            <button class="btn-fill--blue btn--big">Узнать больше</button>
+            <button class="btn-no-fill--blue btn--big">Записаться на собеседование</button>
+          </div>
         </div>
-        
-        <div class="section-about__btns">
-          <button class="btn-fill--blue btn--big">Узнать больше</button>
-          <button class="btn-no-fill--blue btn--big">Записаться на собеседование</button>
+        <div class="section-about__img-container">
+          <img class="section-about__img" src="img/about.jpg" alt="фото на котором девушка сидит за ноутбуком">
         </div>
-      </div>
-      <div class="section-about__img-container">
-        <img class="section-about__img" src="img/about.jpg" alt="фото на котором девушка сидит за ноутбуком">
       </div>
     </section>
 
     <section class="section-values">
-      <h3 class="section-about__title title--blue">Наши ценности скажут о нас больше:</h3>
-    
-      <div class="section-values__slider">
-        <div class="values-slider__track">
-          <div class="values-slider__card">
-            <img  class="values-slider__card-img" src="img/values_slider_card1.png" alt="рисунок с ценностью 'Быть командой'">
-            <div class="values-slider__card-description">
-              <h6 class="values-slider__card-description-title">Быть командой</h6>
-              <p class="values-slider__card-description-text">Готовность вносить вклад в общие цели команды и достигать их.</p>
+      <div class="section-values__content">
+        <h3 class="section-about__title title--blue">Наши ценности скажут о нас больше:</h3>
+      
+        <div class="section-values__slider">
+          <div class="values-slider__track">
+            <div class="values-slider__card">
+              <img  class="values-slider__card-img" src="img/values_slider_card1.png" alt="рисунок с ценностью 'Быть командой'">
+              <div class="values-slider__card-description">
+                <h6 class="values-slider__card-description-title">Быть командой</h6>
+                <p class="values-slider__card-description-text">Готовность вносить вклад в общие цели команды и достигать их.</p>
+              </div>
             </div>
-          </div>
-          <div class="values-slider__card">
-            <img  class="values-slider__card-img" src="img/values_slider_card2.png" alt="рисунок с ценностью 'Быть командой'" >
-            <div class="values-slider__card-description">
-              <h6 class="values-slider__card-description-title">Побеждать и не сдаваться</h6>
-              <p class="values-slider__card-description-text">Быть ориентированным на результат, настойчивым и не сдаваться перед трудностями.</p>
+            <div class="values-slider__card">
+              <img  class="values-slider__card-img" src="img/values_slider_card2.png" alt="рисунок с ценностью 'Быть командой'" >
+              <div class="values-slider__card-description">
+                <h6 class="values-slider__card-description-title">Побеждать и не сдаваться</h6>
+                <p class="values-slider__card-description-text">Быть ориентированным на результат, настойчивым и не сдаваться перед трудностями.</p>
+              </div>
             </div>
-          </div>
-          <div class="values-slider__card">
-            <img  class="values-slider__card-img" src="img/values_slider_card3.png" alt="рисунок с ценностью 'Быть командой'" >
-            <div class="values-slider__card-description">
-              <h6 class="values-slider__card-description-title">Заботиться о клиентах</h6>
-              <p class="values-slider__card-description-text">Выполнять обещания и интересоваться потребностями своих клиентов </p>
+            <div class="values-slider__card">
+              <img  class="values-slider__card-img" src="img/values_slider_card3.png" alt="рисунок с ценностью 'Быть командой'" >
+              <div class="values-slider__card-description">
+                <h6 class="values-slider__card-description-title">Заботиться о клиентах</h6>
+                <p class="values-slider__card-description-text">Выполнять обещания и интересоваться потребностями своих клиентов </p>
+              </div>
             </div>
-          </div>
-          <div class="values-slider__card">
-            <img  class="values-slider__card-img" src="img/values_slider_card4.png" alt="рисунок с ценностью 'Быть командой'" >
-            <div class="values-slider__card-description">
-              <h6 class="values-slider__card-description-title">Быть увлеченным и ответственным</h6>
-              <p class="values-slider__card-description-text">Вкладывать душу в то, что делаешь  и получать от работы удовольствие.</p>
+            <div class="values-slider__card">
+              <img  class="values-slider__card-img" src="img/values_slider_card4.png" alt="рисунок с ценностью 'Быть командой'" >
+              <div class="values-slider__card-description">
+                <h6 class="values-slider__card-description-title">Быть увлеченным и ответственным</h6>
+                <p class="values-slider__card-description-text">Вкладывать душу в то, что делаешь  и получать от работы удовольствие.</p>
+              </div>
             </div>
-          </div>
-          <div class="values-slider__card">
-            <img  class="values-slider__card-img" src="img/values_slider_card5.png" alt="рисунок с ценностью 'Быть командой'" >
-            <div class="values-slider__card-description">
-              <h6 class="values-slider__card-description-title">Развиваться</h6>
-              <p class="values-slider__card-description-text">Постоянно расти личностно и профессионально для достижения поставленных целей.</p>
+            <div class="values-slider__card">
+              <img  class="values-slider__card-img" src="img/values_slider_card5.png" alt="рисунок с ценностью 'Быть командой'" >
+              <div class="values-slider__card-description">
+                <h6 class="values-slider__card-description-title">Развиваться</h6>
+                <p class="values-slider__card-description-text">Постоянно расти личностно и профессионально для достижения поставленных целей.</p>
+              </div>
             </div>
+            
+            
+            
+            
           </div>
-          
-          
-          
-          
         </div>
       </div>
     </section>
@@ -140,62 +147,63 @@
     </section>
 
     <section class="section-live-stream">
-      <div class="section-live-stream__container">
-        <h3 class="section-live-stream__title title--blue">Живая лента</h3>
-        <div class="section-live-stream__slider">
-          
-          
-        </div>
-        <div class="main-slider slick-slider">
-          <div class="slick-slide">
-            <div class="slick-slide__content">
-              <div>
-                <img class="section-live-stream__card-img" src="img/live-stream1.png" alt="фото с мероприятия 'Гендельф карьера'">
-                <p class="section-live-stream__card-text">Экономим на бумаге и угадываем фильмы: дайджест видео марта 2022 года</p>
-              </div>
-              <button class="section-live-stream__card-btn btn-no-fill--blue btn--big">Перейти к статье</button>
-            </div>
-          </div>
-          <div class="slick-slide">
-            <div class="slick-slide__content">
-              <div>
-                <img class="section-live-stream__card-img" src="img/live-stream2.png" alt="фото с мероприятия 'Гендельф карьера'">
-                <p class="section-live-stream__card-text">Изменения 2022 года</p>
-              </div>
-              <button class="section-live-stream__card-btn btn-no-fill--blue btn--big">Перейти к статье</button>
-            </div>
-          </div>
-          <div class="slick-slide">
-            <div class="slick-slide__content">
-              <div>
-                <img class="section-live-stream__card-img" src="img/live-stream3.png" alt="фото с мероприятия 'Гендельф карьера'">
-                <p class="section-live-stream__card-text">Почему стоит работать программистом в 2022 году</p>
-              </div>
-              <button class="section-live-stream__card-btn btn-no-fill--blue btn--big">Перейти к статье</button>
-            </div>
-          </div>
-          <div class="slick-slide">
-            <div class="slick-slide__content">
-              <div>
-                <img class="section-live-stream__card-img" src="img/live-stream4.png" alt="фото с мероприятия 'Гендельф карьера'">
-                <p class="section-live-stream__card-text">Автоматизированный УСН и путевые листы: дайджест новостей за март 2022. Автоматизированный УСН и путевые листы</p>
-              </div>
-              <button class="section-live-stream__card-btn btn-no-fill--blue btn--big">Перейти к статье</button>
-            </div>
-          </div>
-          <div class="slick-slide">
-            <div class="slick-slide__content">
-              <div>
-                <img class="section-live-stream__card-img" src="img/live-stream1.png" alt="фото с мероприятия 'Гендельф карьера'">
-                <p class="section-live-stream__card-text">Экономим на бумаге и угадываем фильмы: дайджест видео марта 2022 года</p>
-              </div>
-              <button class="section-live-stream__card-btn btn-no-fill--blue btn--big">Перейти к статье</button>
-            </div>
-          </div>
-        </div>
+      <div class="section-live-stream__content">
 
-        <div class="main-slider__arrows">
-
+        <div class="section-live-stream__container">
+          <h3 class="section-live-stream__title title--blue">Живая лента</h3>
+          <div class="section-live-stream__slider">
+          </div>
+          <div class="main-slider slick-slider">
+            <div class="slick-slide">
+              <div class="slick-slide__content">
+                <div>
+                  <img class="section-live-stream__card-img" src="img/live-stream1.png" alt="фото с мероприятия 'Гендельф карьера'">
+                  <p class="section-live-stream__card-text">Экономим на бумаге и угадываем фильмы: дайджест видео марта 2022 года</p>
+                </div>
+                <button class="section-live-stream__card-btn btn-no-fill--blue btn--big">Перейти к статье</button>
+              </div>
+            </div>
+            <div class="slick-slide">
+              <div class="slick-slide__content">
+                <div>
+                  <img class="section-live-stream__card-img" src="img/live-stream2.png" alt="фото с мероприятия 'Гендельф карьера'">
+                  <p class="section-live-stream__card-text">Изменения 2022 года</p>
+                </div>
+                <button class="section-live-stream__card-btn btn-no-fill--blue btn--big">Перейти к статье</button>
+              </div>
+            </div>
+            <div class="slick-slide">
+              <div class="slick-slide__content">
+                <div>
+                  <img class="section-live-stream__card-img" src="img/live-stream3.png" alt="фото с мероприятия 'Гендельф карьера'">
+                  <p class="section-live-stream__card-text">Почему стоит работать программистом в 2022 году</p>
+                </div>
+                <button class="section-live-stream__card-btn btn-no-fill--blue btn--big">Перейти к статье</button>
+              </div>
+            </div>
+            <div class="slick-slide">
+              <div class="slick-slide__content">
+                <div>
+                  <img class="section-live-stream__card-img" src="img/live-stream4.png" alt="фото с мероприятия 'Гендельф карьера'">
+                  <p class="section-live-stream__card-text">Автоматизированный УСН и путевые листы: дайджест новостей за март 2022. Автоматизированный УСН и путевые листы</p>
+                </div>
+                <button class="section-live-stream__card-btn btn-no-fill--blue btn--big">Перейти к статье</button>
+              </div>
+            </div>
+            <div class="slick-slide">
+              <div class="slick-slide__content">
+                <div>
+                  <img class="section-live-stream__card-img" src="img/live-stream1.png" alt="фото с мероприятия 'Гендельф карьера'">
+                  <p class="section-live-stream__card-text">Экономим на бумаге и угадываем фильмы: дайджест видео марта 2022 года</p>
+                </div>
+                <button class="section-live-stream__card-btn btn-no-fill--blue btn--big">Перейти к статье</button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="main-slider__arrows">
+  
+          </div>
         </div>
       </div>
     </section>
@@ -210,73 +218,75 @@
     </section>
 
     <section class="questions">
-      <h2 class="questions__title title--blue">Ответы на вопросы</h2>
-    
-      <div class="questions__list">
-        <div class="questions__item">
-          <button class="questions__question" type="button">
-            На что нужно обратить внимание на собеседовании?
-          </button>
-          <div class="questions__answer">
-            <p>Кроме умения представлять себя, грамотно разговаривать и опрятного внешнего вида, стоит обратить внимание еще на пару моментов. Они не очевидны, но очень эффективны.</p>
-            
-            <p><strong>Сохраняйте спокойствие.</strong> Конечно, собеседование – это стрессовая ситуация, которая мешает конструктивно мыслить. Если волнение берет верх – выпейте немного воды, прижмите стопы к полу, а главное, помните: ничего ужасного произойти не может.</p>
-            
-            <p><strong>Внимание к самопрезентации.</strong> Если собеседование – пьеса, вы – ее главный герой. Подготовьте рассказ о себе заранее, опираясь на важные навыки, и опишите, почему это важно для данной работы. Все это придаст вам уверенности в себе.</p>
-            
-            <p><strong>Каверзные вопросы – это норма.</strong> Если вам задали какой-либо вопрос, который кажется вам сложным или задевает личные качества, знайте – правильных ответов не существует. Каверзные вопросы призваны показать вашу стрессоустойчивость и умение ориентироваться в ситуации. Здесь поможет адекватная самокритика и знания в своей профессии.</p>
+      <div class="questions__content">
+        <h2 class="questions__title title--blue">Ответы на вопросы</h2>
+      
+        <div class="questions__list">
+          <div class="questions__item">
+            <button class="questions__question" type="button">
+              На что нужно обратить внимание на собеседовании?
+            </button>
+            <div class="questions__answer">
+              <p>Кроме умения представлять себя, грамотно разговаривать и опрятного внешнего вида, стоит обратить внимание еще на пару моментов. Они не очевидны, но очень эффективны.</p>
+              
+              <p><strong>Сохраняйте спокойствие.</strong> Конечно, собеседование – это стрессовая ситуация, которая мешает конструктивно мыслить. Если волнение берет верх – выпейте немного воды, прижмите стопы к полу, а главное, помните: ничего ужасного произойти не может.</p>
+              
+              <p><strong>Внимание к самопрезентации.</strong> Если собеседование – пьеса, вы – ее главный герой. Подготовьте рассказ о себе заранее, опираясь на важные навыки, и опишите, почему это важно для данной работы. Все это придаст вам уверенности в себе.</p>
+              
+              <p><strong>Каверзные вопросы – это норма.</strong> Если вам задали какой-либо вопрос, который кажется вам сложным или задевает личные качества, знайте – правильных ответов не существует. Каверзные вопросы призваны показать вашу стрессоустойчивость и умение ориентироваться в ситуации. Здесь поможет адекватная самокритика и знания в своей профессии.</p>
+            </div>
+          </div>
+      
+          <div class="questions__item">
+            <button class="questions__question" type="button">
+  
+              Как правильно составить резюме?
+            </button>
+            <div class="questions__answer">
+              <p>Кроме умения представлять себя, грамотно разговаривать и опрятного внешнего вида, стоит обратить внимание еще на пару моментов. Они не очевидны, но очень эффективны.</p>
+              
+              <p><strong>Сохраняйте спокойствие.</strong> Конечно, собеседование – это стрессовая ситуация, которая мешает конструктивно мыслить. Если волнение берет верх – выпейте немного воды, прижмите стопы к полу, а главное, помните: ничего ужасного произойти не может.</p>
+              
+              <p><strong>Внимание к самопрезентации.</strong> Если собеседование – пьеса, вы – ее главный герой. Подготовьте рассказ о себе заранее, опираясь на важные навыки, и опишите, почему это важно для данной работы. Все это придаст вам уверенности в себе.</p>
+              
+              <p><strong>Каверзные вопросы – это норма.</strong> Если вам задали какой-либо вопрос, который кажется вам сложным или задевает личные качества, знайте – правильных ответов не существует. Каверзные вопросы призваны показать вашу стрессоустойчивость и умение ориентироваться в ситуации. Здесь поможет адекватная самокритика и знания в своей профессии.</p>
+            </div>
+          </div>
+      
+          <div class="questions__item">
+            <button class="questions__question" type="button">
+              Возможно ли устроиться без опыта?
+            </button>
+            <div class="questions__answer">
+              <p>Кроме умения представлять себя, грамотно разговаривать и опрятного внешнего вида, стоит обратить внимание еще на пару моментов. Они не очевидны, но очень эффективны.</p>
+              
+              <p><strong>Сохраняйте спокойствие.</strong> Конечно, собеседование – это стрессовая ситуация, которая мешает конструктивно мыслить. Если волнение берет верх – выпейте немного воды, прижмите стопы к полу, а главное, помните: ничего ужасного произойти не может.</p>
+              
+              <p><strong>Внимание к самопрезентации.</strong> Если собеседование – пьеса, вы – ее главный герой. Подготовьте рассказ о себе заранее, опираясь на важные навыки, и опишите, почему это важно для данной работы. Все это придаст вам уверенности в себе.</p>
+              
+              <p><strong>Каверзные вопросы – это норма.</strong> Если вам задали какой-либо вопрос, который кажется вам сложным или задевает личные качества, знайте – правильных ответов не существует. Каверзные вопросы призваны показать вашу стрессоустойчивость и умение ориентироваться в ситуации. Здесь поможет адекватная самокритика и знания в своей профессии.</p>
+            </div>
+          </div>
+  
+          <div class="questions__item">
+            <button class="questions__question" type="button">
+              Ошибки на собеседовании. Чего нужно избегать?
+            </button>
+            <div class="questions__answer">
+              <p>Кроме умения представлять себя, грамотно разговаривать и опрятного внешнего вида, стоит обратить внимание еще на пару моментов. Они не очевидны, но очень эффективны.</p>
+              
+              <p><strong>Сохраняйте спокойствие.</strong> Конечно, собеседование – это стрессовая ситуация, которая мешает конструктивно мыслить. Если волнение берет верх – выпейте немного воды, прижмите стопы к полу, а главное, помните: ничего ужасного произойти не может.</p>
+              
+              <p><strong>Внимание к самопрезентации.</strong> Если собеседование – пьеса, вы – ее главный герой. Подготовьте рассказ о себе заранее, опираясь на важные навыки, и опишите, почему это важно для данной работы. Все это придаст вам уверенности в себе.</p>
+              
+              <p><strong>Каверзные вопросы – это норма.</strong> Если вам задали какой-либо вопрос, который кажется вам сложным или задевает личные качества, знайте – правильных ответов не существует. Каверзные вопросы призваны показать вашу стрессоустойчивость и умение ориентироваться в ситуации. Здесь поможет адекватная самокритика и знания в своей профессии.</p>
+            </div>
           </div>
         </div>
-    
-        <div class="questions__item">
-          <button class="questions__question" type="button">
-
-            Как правильно составить резюме?
-          </button>
-          <div class="questions__answer">
-            <p>Кроме умения представлять себя, грамотно разговаривать и опрятного внешнего вида, стоит обратить внимание еще на пару моментов. Они не очевидны, но очень эффективны.</p>
-            
-            <p><strong>Сохраняйте спокойствие.</strong> Конечно, собеседование – это стрессовая ситуация, которая мешает конструктивно мыслить. Если волнение берет верх – выпейте немного воды, прижмите стопы к полу, а главное, помните: ничего ужасного произойти не может.</p>
-            
-            <p><strong>Внимание к самопрезентации.</strong> Если собеседование – пьеса, вы – ее главный герой. Подготовьте рассказ о себе заранее, опираясь на важные навыки, и опишите, почему это важно для данной работы. Все это придаст вам уверенности в себе.</p>
-            
-            <p><strong>Каверзные вопросы – это норма.</strong> Если вам задали какой-либо вопрос, который кажется вам сложным или задевает личные качества, знайте – правильных ответов не существует. Каверзные вопросы призваны показать вашу стрессоустойчивость и умение ориентироваться в ситуации. Здесь поможет адекватная самокритика и знания в своей профессии.</p>
-          </div>
+        <div class="questions__img-container">
+          <img class="questions__img" src="img/qu_icon.png" alt="иконка с вопросами">
+  
         </div>
-    
-        <div class="questions__item">
-          <button class="questions__question" type="button">
-            Возможно ли устроиться без опыта?
-          </button>
-          <div class="questions__answer">
-            <p>Кроме умения представлять себя, грамотно разговаривать и опрятного внешнего вида, стоит обратить внимание еще на пару моментов. Они не очевидны, но очень эффективны.</p>
-            
-            <p><strong>Сохраняйте спокойствие.</strong> Конечно, собеседование – это стрессовая ситуация, которая мешает конструктивно мыслить. Если волнение берет верх – выпейте немного воды, прижмите стопы к полу, а главное, помните: ничего ужасного произойти не может.</p>
-            
-            <p><strong>Внимание к самопрезентации.</strong> Если собеседование – пьеса, вы – ее главный герой. Подготовьте рассказ о себе заранее, опираясь на важные навыки, и опишите, почему это важно для данной работы. Все это придаст вам уверенности в себе.</p>
-            
-            <p><strong>Каверзные вопросы – это норма.</strong> Если вам задали какой-либо вопрос, который кажется вам сложным или задевает личные качества, знайте – правильных ответов не существует. Каверзные вопросы призваны показать вашу стрессоустойчивость и умение ориентироваться в ситуации. Здесь поможет адекватная самокритика и знания в своей профессии.</p>
-          </div>
-        </div>
-
-        <div class="questions__item">
-          <button class="questions__question" type="button">
-            Ошибки на собеседовании. Чего нужно избегать?
-          </button>
-          <div class="questions__answer">
-            <p>Кроме умения представлять себя, грамотно разговаривать и опрятного внешнего вида, стоит обратить внимание еще на пару моментов. Они не очевидны, но очень эффективны.</p>
-            
-            <p><strong>Сохраняйте спокойствие.</strong> Конечно, собеседование – это стрессовая ситуация, которая мешает конструктивно мыслить. Если волнение берет верх – выпейте немного воды, прижмите стопы к полу, а главное, помните: ничего ужасного произойти не может.</p>
-            
-            <p><strong>Внимание к самопрезентации.</strong> Если собеседование – пьеса, вы – ее главный герой. Подготовьте рассказ о себе заранее, опираясь на важные навыки, и опишите, почему это важно для данной работы. Все это придаст вам уверенности в себе.</p>
-            
-            <p><strong>Каверзные вопросы – это норма.</strong> Если вам задали какой-либо вопрос, который кажется вам сложным или задевает личные качества, знайте – правильных ответов не существует. Каверзные вопросы призваны показать вашу стрессоустойчивость и умение ориентироваться в ситуации. Здесь поможет адекватная самокритика и знания в своей профессии.</p>
-          </div>
-        </div>
-      </div>
-      <div class="questions__img-container">
-        <img class="questions__img" src="img/qu_icon.png" alt="иконка с вопросами">
-
       </div>
     </section>
     <section class="form-section">
@@ -286,29 +296,29 @@
         <h3 class="form-section__title">Записаться на собеседование</h3>
         <form class="form" id="applicationForm" action="#" method="post" enctype="multipart/form-data">
           <div class="form__group">
-            <input type="text" name="name" id="name" class="form__input" placeholder="Как к вам обращаться?" required>
+            <input type="text" name="name" id="name" class="form__input" placeholder="Как к вам обращаться?" >
             <span id="nameError" class="form__error"></span> <!-- Контейнер для ошибок -->
           </div>
         
           <div class="form__group">
-            <input type="tel" name="phone" id="phone" class="form__input" placeholder="Телефон" required>
+            <input type="tel" name="phone" id="phone" class="form__input" placeholder="Телефон" >
             <span id="phoneError" class="form__error"></span> 
           </div>
         
           <div class="form__group">
-            <input type="email" name="email" id="email" class="form__input" placeholder="Email" required>
+            <input type="email" name="email" id="email" class="form__input" placeholder="Email" >
             <span id="emailError" class="form__error"></span> 
           </div>
         
           <div class="form__group">
-            <input type="text" name="position" id="position" class="form__input" placeholder="Желаемая должность" required>
+            <input type="text" name="position" id="position" class="form__input" placeholder="Желаемая должность" >
             <span id="positionError" class="form__error"></span> 
           </div>
         
           <div class="form__group">
             <span class="form__label">Выберите категорию занятости:</span>
             <label class="form__radio">
-              <input type="radio" name="employment" value="office" class="form__radio-input" required>
+              <input type="radio" name="employment" value="office" class="form__radio-input" >
               <span class="form__radio-text">Работа в офисе</span>
             </label>
             <label class="form__radio">
@@ -329,15 +339,15 @@
           <div class="form-btn-container">
             <div class="form__group">
               <label class="form__file">
-                <input type="file" name="resume" id="resume" class="form__file-input" required>
+                <input type="file" name="resume" id="resume" class="form__file-input" >
                 <span class="form__file-text">Прикрепить резюме
                   <img src="img/form_svg.svg" alt="" class="form__file-icon">
                 </span>
               </label>
+              <div id="resumePreview" class="form__file-preview"></div> <!-- Покажем файл -->
               <span id="resumeError" class="form__error"></span> 
             </div>
             <button type="submit" class="form__submit btn-fill--green">Записаться</button>
-          </div>
         </form>
         
         
@@ -403,99 +413,197 @@ burger.addEventListener('click', () => {
 });
 
 </script>
+
+
 <script>
-  document.getElementById('applicationForm').addEventListener('submit', function (e) {
-  e.preventDefault();  
+  document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('applicationForm');
+    const inputs = {
+      name: document.getElementById('name'),
+      phone: document.getElementById('phone'),
+      email: document.getElementById('email'),
+      position: document.getElementById('position'),
+      resume: document.getElementById('resume'),
+    };
+    const errors = {
+      name: document.getElementById('nameError'),
+      phone: document.getElementById('phoneError'),
+      email: document.getElementById('emailError'),
+      position: document.getElementById('positionError'),
+      employment: document.getElementById('employmentError'),
+      resume: document.getElementById('resumeError'),
+    };
+    const resumePreview = document.getElementById('resumePreview');
 
-  let isValid = true;  
+    // Очистка ошибок и классов
+    function clearErrors() {
+      for (let key in errors) {
+        errors[key].textContent = '';
+      }
+      for (let key in inputs) {
+        if (key !== 'resume') {
+          inputs[key].classList.remove('valid', 'invalid');
+        }
+      }
+    }
 
-  
-  const name = document.getElementById('name');
-  const nameError = document.getElementById('nameError');
-  if (!name.value.trim()) {
-    nameError.textContent = "Это поле обязательно для заполнения!";
-    name.classList.add('invalid'); 
-    name.classList.remove('valid');
-    isValid = false;
-  } else {
-    nameError.textContent = "";
-    name.classList.add('valid');  
-    name.classList.remove('invalid');
-  }
+    // Проверка email
+    function isValidEmail(email) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
 
-  // Проверка телефона
-  const phone = document.getElementById('phone');
-  const phoneError = document.getElementById('phoneError');
-  const phonePattern = /^\+?[0-9\s\-]{7,15}$/;
-  if (!phone.value.match(phonePattern)) {
-    phoneError.textContent = "Введите корректный номер телефона!";
-    phone.classList.add('invalid');  
-    phone.classList.remove('valid');
-    isValid = false;
-  } else {
-    phoneError.textContent = "";
-    phone.classList.add('valid'); 
-    phone.classList.remove('invalid');
-  }
+    // Проверка телефона
+    function isValidPhone(phone) {
+      return /^\+?\d{10,15}$/.test(phone);
+    }
 
-  // Проверка email
-  const email = document.getElementById('email');
-  const emailError = document.getElementById('emailError');
-  const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-  if (!email.value.match(emailPattern)) {
-    emailError.textContent = "Введите корректный Email!";
-    email.classList.add('invalid'); 
-    email.classList.remove('valid');
-    isValid = false;
-  } else {
-    emailError.textContent = "";
-    email.classList.add('valid');  
-    email.classList.remove('invalid');
-  }
+    // Валидация формы
+    function validateForm() {
+      let isValid = true;
+      clearErrors();
 
- 
-  const position = document.getElementById('position');
-  const positionError = document.getElementById('positionError');
-  if (!position.value.trim()) {
-    positionError.textContent = "Это поле обязательно для заполнения!";
-    position.classList.add('invalid');  
-    position.classList.remove('valid');
-    isValid = false;
-  } else {
-    positionError.textContent = "";
-    position.classList.add('valid');  
-    position.classList.remove('invalid');
-  }
+      if (inputs.name.value.trim() === '') {
+        errors.name.textContent = 'Укажите имя';
+        inputs.name.classList.add('invalid');
+        isValid = false;
+      } else {
+        inputs.name.classList.add('valid');
+      }
 
+      if (!isValidPhone(inputs.phone.value.trim())) {
+        errors.phone.textContent = 'Некорректный номер телефона';
+        inputs.phone.classList.add('invalid');
+        isValid = false;
+      } else {
+        inputs.phone.classList.add('valid');
+      }
 
-  const employment = document.querySelector('input[name="employment"]:checked');
-  const employmentError = document.getElementById('employmentError');
-  if (!employment) {
-    employmentError.textContent = "Выберите категорию занятости!";
-    document.querySelectorAll('input[name="employment"]').forEach(input => {
-      input.classList.add('invalid');  
-      input.classList.remove('valid');
+      if (!isValidEmail(inputs.email.value.trim())) {
+        errors.email.textContent = 'Некорректный email';
+        inputs.email.classList.add('invalid');
+        isValid = false;
+      } else {
+        inputs.email.classList.add('valid');
+      }
+
+      if (inputs.position.value.trim() === '') {
+        errors.position.textContent = 'Укажите должность';
+        inputs.position.classList.add('invalid');
+        isValid = false;
+      } else {
+        inputs.position.classList.add('valid');
+      }
+
+      const employmentSelected = document.querySelector('input[name="employment"]:checked');
+      if (!employmentSelected) {
+        errors.employment.textContent = 'Выберите вариант занятости';
+        isValid = false;
+      }
+
+      if (inputs.resume.files.length === 0) {
+        errors.resume.textContent = 'Прикрепите файл резюме';
+        isValid = false;
+      }
+
+      return isValid;
+    }
+
+    // Просмотр и удаление файла
+    inputs.resume.addEventListener('change', function () {
+      const file = this.files[0];
+      resumePreview.innerHTML = '';
+
+      if (file) {
+        const fileName = document.createElement('span');
+        fileName.textContent = file.name;
+
+        const removeBtn = document.createElement('button');
+        removeBtn.type = 'button';
+        removeBtn.textContent = 'Удалить';
+        removeBtn.style.marginLeft = '10px';
+
+        removeBtn.addEventListener('click', function () {
+          inputs.resume.value = '';
+          resumePreview.innerHTML = '';
+        });
+
+        resumePreview.appendChild(fileName);
+        resumePreview.appendChild(removeBtn);
+      }
     });
-    isValid = false;
-  } else {
-    employmentError.textContent = "";
-    document.querySelectorAll('input[name="employment"]').forEach(input => {
-      input.classList.add('valid'); 
-      input.classList.remove('invalid');
+
+    // Отправка формы
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      if (!validateForm()) {
+        console.log('Форма содержит ошибки');
+        return;
+      }
+
+      const formData = new FormData(form);
+
+      console.log('Отправляемые данные:');
+      for (const pair of formData.entries()) {
+        console.log(`${pair[0]}:`, pair[1]);
+      }
+
+      // fetch('/submit', { method: 'POST', body: formData })
     });
+  });
+  function validateForm() {
+  let isValid = true;
+  clearErrors();
+
+  for (let key in inputs) {
+    const input = inputs[key];
+    const value = input.value.trim();
+
+    // Пропускаем файл, т.к. у него особая проверка
+    if (key !== 'resume') {
+      if (value === '') {
+        errors[key].textContent = 'Поле обязательно для заполнения';
+        input.classList.add('invalid');
+        isValid = false;
+      } else {
+        input.classList.add('valid');
+      }
+    }
   }
 
-  
- 
-
-  
-  if (isValid) {
-    alert("Форма отправлена!");
-    
+  // Дополнительные проверки
+  if (!isValidPhone(inputs.phone.value.trim())) {
+    errors.phone.textContent = 'Некорректный номер телефона';
+    inputs.phone.classList.add('invalid');
+    isValid = false;
   }
-});
+
+  if (!isValidEmail(inputs.email.value.trim())) {
+    errors.email.textContent = 'Некорректный email';
+    inputs.email.classList.add('invalid');
+    isValid = false;
+  }
+
+  const employmentSelected = document.querySelector('input[name="employment"]:checked');
+  if (!employmentSelected) {
+    errors.employment.textContent = 'Выберите вариант занятости';
+    isValid = false;
+  }
+
+  if (inputs.resume.files.length === 0) {
+    errors.resume.textContent = 'Прикрепите файл резюме';
+    isValid = false;
+  }
+
+  return isValid;
+}
 
 </script>
+
+
+  
+
+
 
 
   <script type="text/javascript" src="scripts/slick.min.js"></script>
